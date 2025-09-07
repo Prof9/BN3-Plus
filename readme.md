@@ -13,8 +13,7 @@ down the final boss of the main story.
 
 Apply to a clean North American Battle Network 3 ROM either "White US.ips" or
 "Blue US.ips" depending on your game version, using your favorite IPS patching
-tool. If you don't know any, try Lunar IPS. I haven't tested the European so I
-don't know if it will work on those (I assume not).
+tool. If you don't know any, try Floating IPS.
 
 Please note that applying this patch will make the ROM bigger than 8 MB.
 

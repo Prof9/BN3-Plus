@@ -2,3 +2,6 @@ Need these files here:
 
 ARMIPS assembler by Kingdom, at least v0.11.0
 - armips.exe
+
+Floating IPS by Alcaro, at least v1.31
+- flips.exe
