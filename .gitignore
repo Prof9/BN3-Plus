@@ -1,0 +1,10 @@
+# ROMs and build output
+_rom/*
+!_rom/roms_go_here.txt
+
+# Third party tools
+tools/*.exe
+tools/*.dll
+
+# Shortcuts
+*.lnk

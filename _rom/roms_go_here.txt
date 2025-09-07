@@ -1,0 +1,7 @@
+Need these ROMs here:
+
+Mega Man Battle Network 3 White (US)
+- mmbn3w-us.gba
+
+Mega Man Battle Network 3 Blue (US)
+- mmbn3b-us.gba

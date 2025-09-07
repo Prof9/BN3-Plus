@@ -1,3 +1,5 @@
+FREE_SPACE equ 0x087FFBC4
+
 off0x02009810 equ 0x02009810
 off0x02009870 equ 0x02009870
 off0x0200A30A equ 0x0200A30A
@@ -6,7 +8,7 @@ off0x02010800 equ 0x02010800
 off0x06000020 equ 0x06000020
 off0x06008040 equ 0x06008040
 
- ; Static
+// Static
 off0x080005B9 equ 0x080005B9
 off0x080005D9 equ 0x080005D9
 off0x080009C9 equ 0x080009C9
@@ -18,7 +20,7 @@ off0x08001D09 equ 0x08001D09
 off0x08005289 equ 0x08005289
 off0x080052C9 equ 0x080052C9
 
- ; +0
+// +0
 off0x08021D41 equ 0x08021D41
 off0x08021D5C equ 0x08021D5C
 off0x08029900 equ 0x08029900
@@ -50,16 +52,14 @@ off0x080478D9 equ 0x080478D9
 off0x080478DC equ 0x080478DC
 off0x08047918 equ 0x08047918
 
- ; Paths
-Pal0Path equ jackinwhite\pal0.bin
-Pal1Path equ jackinwhite\pal1.bin
-Pal2Path equ jackinwhite\pal2.bin
-Pal3Path equ jackinwhite\pal3.bin
-Pal4Path equ jackinwhite\pal4.bin
-Frame0Path equ jackinwhite\frame0.bin
-Frame1Path equ jackinwhite\frame1.bin
-Frame2Path equ jackinwhite\frame2.bin
-Frame3Path equ jackinwhite\frame3.bin
-Frame4Path equ jackinwhite\frame4.bin
-
- ; eof
+// Paths
+JACKIN_PAL0_PATH equ "imports/jack_in-white/pal0.bin"
+JACKIN_PAL1_PATH equ "imports/jack_in-white/pal1.bin"
+JACKIN_PAL2_PATH equ "imports/jack_in-white/pal2.bin"
+JACKIN_PAL3_PATH equ "imports/jack_in-white/pal3.bin"
+JACKIN_PAL4_PATH equ "imports/jack_in-white/pal4.bin"
+JACKIN_FRAME0_PATH equ "imports/jack_in-white/frame0.bin"
+JACKIN_FRAME1_PATH equ "imports/jack_in-white/frame1.bin"
+JACKIN_FRAME2_PATH equ "imports/jack_in-white/frame2.bin"
+JACKIN_FRAME3_PATH equ "imports/jack_in-white/frame3.bin"
+JACKIN_FRAME4_PATH equ "imports/jack_in-white/frame4.bin"
