@@ -8,3 +8,4 @@ tools/*.dll
 
 # Shortcuts
 *.lnk
+.env
