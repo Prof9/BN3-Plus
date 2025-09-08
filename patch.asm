@@ -18,6 +18,7 @@ GAME_CODE equ readascii(ROM_IN, 0xAC, 4)
 .include "asm/navicust_compress.asm"
 .include "asm/navicust_intro.asm"
 .include "asm/net_color.asm"
+.include "asm/gameover.asm"
 
 
 .org FREE_SPACE
@@ -26,6 +27,7 @@ GAME_CODE equ readascii(ROM_IN, 0xAC, 4)
 .include "asm/jack_in.ext.asm"
 .include "asm/navicust_intro.ext.asm"
 .include "asm/net_color.ext.asm"
+.include "asm/gameover.ext.asm"
 
 
 .close
