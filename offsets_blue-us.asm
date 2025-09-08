@@ -52,6 +52,16 @@ off0x080478D9 equ 0x080478C1
 off0x080478DC equ 0x080478C4
 off0x08047918 equ 0x08047900
 
+// Game Over
+off0x08000B7C equ 0x08000B7C
+off0x08000A34 equ 0x08000A34
+off0x08001D08 equ 0x08001D08
+off0x08001DB0 equ 0x08001DB0
+GameOverRegularPal equ 0x087FA424
+HookForGameOver equ 0x080472B6
+GameOverPointerTile equ 0x080472F0
+BG3Change equ 0x08047242
+
 // Paths
 JACKIN_PAL0_PATH equ "imports/jack_in-blue/pal0.bin"
 JACKIN_PAL1_PATH equ "imports/jack_in-blue/pal1.bin"
